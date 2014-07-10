@@ -1,0 +1,16 @@
+{
+	"author": "Rudolph-Miller",
+		"name": "event-cluster",
+		"description": "cluster for event emitter",
+		"repository": {
+			"type": "git",
+			"url": "git://github.com/Rudolph-Miller/event-cluster"
+		},
+		"engines": {
+			"node":"*"
+		},
+		"dependencies": {},
+		"devDependencies": {
+			"coffee-script":"*"
+		}
+}
