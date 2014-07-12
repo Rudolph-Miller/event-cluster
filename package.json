@@ -1,7 +1,7 @@
 {
 	"author": "Rudolph-Miller",
 		"name": "node-dispatcher",
-		"version": "1.0.2",
+		"version": "1.0.3",
 		"keywords": ["cluster", "dispatcher", "coffeescript"],
 		"description": "dispatcher for Node.js",
 		"repository": {
