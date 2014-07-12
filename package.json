@@ -1,15 +1,17 @@
 {
 	"author": "Rudolph-Miller",
-		"name": "event-cluster",
-		"description": "cluster for event emitter",
+		"name": "node-dispatcher",
+		"description": "dispatcher for Node.js",
 		"repository": {
 			"type": "git",
-			"url": "git://github.com/Rudolph-Miller/event-cluster"
+			"url": "git://github.com/Rudolph-Miller/node-dispather"
 		},
 		"engines": {
 			"node":"*"
 		},
-		"dependencies": {},
+		"dependencies": {
+			"coffee-script":"*"
+		},
 		"devDependencies": {
 			"coffee-script":"*"
 		}
