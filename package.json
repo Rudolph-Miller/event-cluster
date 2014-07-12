@@ -1,11 +1,17 @@
 {
 	"author": "Rudolph-Miller",
 		"name": "node-dispatcher",
+		"version": "1.0.1",
+		"keywords": ["cluster", "dispatcher", "coffeescript"],
 		"description": "dispatcher for Node.js",
 		"repository": {
 			"type": "git",
-			"url": "git://github.com/Rudolph-Miller/node-dispather"
+			"url": "git://github.com/Rudolph-Miller/node-dispatcher"
 		},
+		"scripts": {
+		  "prepublish": "coffee -o lib/ -c src/*.coffee"
+		},
+		"main": "./lib/dispathcer.javascript",
 		"engines": {
 			"node":"*"
 		},
