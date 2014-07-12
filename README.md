@@ -7,13 +7,13 @@ Author: Rudolph-Miller
 
 1. How to use
 	```
-	cluster = new require './event-cluster'
-	cluster.use *id*, *function*
+	dispatcher = 'node-dispatcher'
+	dispatcher.use *id*, *function*
 
-	if cluster.isMaster
-		cluster.fork()
-		cluster.pushQ *id*, *target*
-		cluster.on 'result', (message) -> message.result = *function*( *target* )
+	if dispatcher.isMaster
+		dispatcher.fork()
+		dispatcher.pushQ *id*, *target*
+		dispatcher.on 'result', (message) -> message.result = *function*( *target* )
 	```
 
 2. Master
