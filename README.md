@@ -7,7 +7,8 @@ Author: Rudolph-Miller
 
 1. How to use
 	```
-	dispatcher = 'node-dispatcher'
+	Dispatcher = 'node-dispatcher'
+	dispatcher = new Dispatcher
 	dispatcher.use *id*, *function*
 
 	if dispatcher.isMaster

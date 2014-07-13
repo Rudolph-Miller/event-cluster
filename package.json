@@ -9,7 +9,8 @@
 			"url": "git://github.com/Rudolph-Miller/node-dispatcher"
 		},
 		"scripts": {
-		  "prepublish": "coffee -o lib/ -c src/*.coffee"
+		  "prepublish": "coffee -o lib/ -c src/*.coffee",
+		  "build": "coffee -o lib/ -c src/*.coffee"
 		},
 		"main": "lib/dispathcer.javascript",
 		"engines": {
